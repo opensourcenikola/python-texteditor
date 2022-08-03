@@ -46,6 +46,7 @@ filemenu.add_command(label="Save As...", command=saveAs)
 filemenu.add_separator()
 filemenu.add_command(label="Quit", command=root.quit)
 menubar.add_cascade(label="File", menu=filemenu)
+# There's only "File" on the menu, perhaps all we need
 
 root.config(menu=menubar)
 root.mainloop()
